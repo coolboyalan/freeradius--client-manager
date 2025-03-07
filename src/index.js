@@ -8,7 +8,7 @@ const execPromise = promisify(exec);
 
 const restartDocker = async () => {
   try {
-    const { stdout } = await execPromise("sudo systemctl restart docker");
+    const { stdout } = await execPromise("sudo systemctl restart freeradius");
     console.log(`stdout: ${stdout}`);
   } catch (error) {
     console.error(`Error: ${error.message}`);

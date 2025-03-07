@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Server 1",
+    "ip": "173.208.151.222",
+    "enabled": true,
+    "flag": "in"
+  },
+  {
+    "name": "Server 2",
+    "ip": "198.123.1.1",
+    "enabled": true,
+    "flag": "au"
+  },
+  {
+    "name": "UK SERVER",
+    "ip": "417.1.3.1",
+    "enabled": true,
+    "flag": "us"
+  },
+  {
+    "name": "Server 4",
+    "ip": "46.42.1.74",
+    "enabled": true,
+    "flag": "pk"
+  }
+]
